@@ -13,32 +13,13 @@ import { Education, Experience, Project } from "../types/cards";
 
 const education: Education[] = [
     {
-        school: "Stevens Institute of Technology",
-        major: "Computer Science, Minor in Math",
-        image: "stevens.jpg",
+        school: "University of Florida",
+        major: "Computer Science",
+        image: "university-of-florida-logo.png",
         subtitles: [
             {
-                title: "Awards",
-                description: "Pinnacle Scholar 🞄 Dean’s List: Fall 2022, Spring 2023"
-            },
-            {
                 title: "Clubs",
-                description: "Ultimate Frisbee 🞄 Blueprint 🞄 Chess 🞄 Poker"
-            }
-        ]
-    },
-    {
-        school: "Montclair State University",
-        major: "Co-op Program",
-        image: "msu.png",
-        subtitles: [
-            {
-                title: "Classes",
-                description: "Calculus I, II 🞄 Introduction to Java Programming"
-            },
-            {
-                title: "Clubs",
-                description: "None. I was scared."
+                description: "ALPFA, SASE, SHPE"
             }
         ]
     }
@@ -46,32 +27,25 @@ const education: Education[] = [
 
 const experiences: Experience[] = [
     {
-        company: "Datadog",
-        title: "Incoming Software Engineer",
-        image: "datadog-logo.png",
-        date: "September 2024 - December 2024",
+        company: "Fifth Third Bank",
+        title: "Software Engineer Intern",
+        image: "fitb-logo.png",
+        date: "January 2025 - May 2025",
+        location: "Cincinnatti, OH"
+    },
+    {
+        company: "BNY",
+        title: "Software Engineer Intern",
+        image: "bny-logo-2.png",
+        date: "May 2025 - August 2025",
         location: "New York, NY"
     },
     {
-        company: "DoorDash",
-        title: "Incoming Software Engineer",
-        image: "doordash-logo.png",
-        date: "May 2024 - August 2024",
-        location: "New York, NY"
-    },
-    {
-        company: "Stevens Institute of Technology",
+        company: "University of Florida",
         title: "Undergraduate Researcher",
-        image: "stevens.jpg",
-        date: "May 2023 - September 2023",
-        location: "Hoboken, NJ"
-    },
-    {
-        company: "Stanford University",
-        title: "Student Instructor",
-        image: "stanford.jpg",
-        date: "April 2023 - June 2023",
-        location: "Stanford, CA"
+        image: "university-of-florida-logo.png",
+        date: "August 2023 - December 2024",
+        location: "Gainesville, FL"
     }
 ]
 
@@ -204,7 +178,7 @@ const Header = () => {
                            md:flex-row"
             >
                 <img 
-                    src="/pfp.png" 
+                    src="/pfpSteve.jpg"
                     className="w-1/2 h-full object-cover rounded-full shadow-xl
                                md:w-1/5"
                 />
@@ -223,11 +197,13 @@ const Header = () => {
                             className="flex flex-row justify-center items-center w-full
                                        md:justify-start"
                         >
-                            <h1 className="text-6xl text-black font-bold animate-pulse animation-delay-0">a</h1>
-                            <h1 className="text-6xl text-black font-bold animate-pulse animation-delay-100">i</h1>
-                            <h1 className="text-6xl text-black font-bold animate-pulse animation-delay-200">d</h1>
-                            <h1 className="text-6xl text-black font-bold animate-pulse animation-delay-300">a</h1>
-                            <h1 className="text-6xl text-black font-bold animate-pulse animation-delay-400">n</h1>
+                            <h1 className="text-6xl text-black font-bold animate-pulse animation-delay-0">s</h1>
+                            <h1 className="text-6xl text-black font-bold animate-pulse animation-delay-100">t</h1>
+                            <h1 className="text-6xl text-black font-bold animate-pulse animation-delay-200">e</h1>
+                            <h1 className="text-6xl text-black font-bold animate-pulse animation-delay-300">p</h1>
+                            <h1 className="text-6xl text-black font-bold animate-pulse animation-delay-400">h</h1>
+                            <h1 className="text-6xl text-black font-bold animate-pulse animation-delay-500">e</h1>
+                            <h1 className="text-6xl text-black font-bold animate-pulse animation-delay-600">n</h1>
                         </div>
                     </div>
 
@@ -237,7 +213,7 @@ const Header = () => {
                     >
                         and im a <span className="text-yellow-400">computer science student</span> <br />
                         with a passion for <span className="text-yellow-400"> software engineering</span> <br />
-                        and <span className="text-yellow-400"> machine learning</span>
+                        and <span className="text-yellow-400"> cloud infrastructure</span>
                     </p>
                 </div>
             </div>
@@ -250,9 +226,8 @@ const Socials = () => {
         <div className="flex flex-col justify-center items-center w-full h-36 bg-gray-100 p-8 gap-5">
             <h1 className="text-black text-4xl font-extralight uppercase">socials</h1>
             <div className="flex flex-row justify-evenly items-center w-full h-full gap-3">
-                <SocialIcon url="https://tiktok.com/@ouckah" icon={<Tiktok color="black" size={36} />} />
-                <SocialIcon url="https://www.linkedin.com/in/aidan-ouckama/" icon={<Linkedin color="black" size={36} />} />
-                <SocialIcon url="https://www.github.com/ouckah" icon={<Github color="black" size={36} />} />
+                <SocialIcon url="https://www.linkedin.com/in/stephenblacedavis/" icon={<Linkedin color="black" size={36} />} />
+                <SocialIcon url="https://www.github.com/mod-io" icon={<Github color="black" size={36} />} />
             </div>            
         </div>
     )
@@ -261,7 +236,7 @@ const Socials = () => {
 const Footer = () => {
     return (
         <div className="flex flex-col justify-center items-end w-full h-12 bg-gray-100 p-12">
-            <h1 className="text-black font-semibold">@aidanouckama</h1>
+            <h1 className="text-black font-semibold">@stephendavis</h1>
         </div>
     )
 }

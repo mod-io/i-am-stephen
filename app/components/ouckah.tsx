@@ -38,19 +38,19 @@ const Metric = ({ title, value }: Metric) => {
 const metrics: Metric[] = [
   {
     title: "followers",
-    value: "22,800+",
+    value: "0",
   },
   {
     title: "likes",
-    value: "1,500,000+",
+    value: "5",
   },
   {
     title: "monthly views",
-    value: "500,000+",
+    value: "2",
   },
   {
     title: "monthly unique viewers",
-    value: "300,000+",
+    value: "1",
   },
 ]
 
@@ -94,7 +94,7 @@ const Header = () => {
                            md:flex-row"
       >
         <img
-          src="/selfie.jpg"
+          src="/pfpSteve.jpg"
           className="w-full h-1/2 object-cover rounded-3xl shadow-xl
                                md:h-[200%] md:w-1/4"
         />
@@ -114,22 +114,16 @@ const Header = () => {
                                        md:justify-start"
             >
               <h1 className="text-6xl text-white font-bold animate-bounce animation-delay-0">
-                o
+                g
               </h1>
               <h1 className="text-6xl text-white font-bold animate-bounce animation-delay-100">
-                u
+                o
               </h1>
               <h1 className="text-6xl text-white font-bold animate-bounce animation-delay-200">
-                c
-              </h1>
-              <h1 className="text-6xl text-white font-bold animate-bounce animation-delay-300">
-                k
-              </h1>
-              <h1 className="text-6xl text-white font-bold animate-bounce animation-delay-400">
                 a
               </h1>
-              <h1 className="text-6xl text-white font-bold animate-bounce animation-delay-500">
-                h
+              <h1 className="text-6xl text-white font-bold animate-bounce animation-delay-300">
+                t
               </h1>
             </div>
           </div>
@@ -215,7 +209,7 @@ const Socials = () => {
 const Footer = () => {
   return (
     <div className="flex flex-col justify-center items-end w-full h-12 bg-black p-12">
-      <h1 className="text-white font-semibold">@ouckah</h1>
+      <h1 className="text-white font-semibold">@stephendavis</h1>
     </div>
   )
 }

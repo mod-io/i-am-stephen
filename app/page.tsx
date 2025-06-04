@@ -31,14 +31,14 @@ export default function Home() {
               className={ouckah ? (selected) : (unselected)}
               onClick={() => setOuckah(true)}
             >
-              ouckah
+              goat
             </button>
 
             <button 
               className={ouckah ? (unselected) : (selected)}
               onClick={() => setOuckah(false)}
             >
-              aidan ouckama
+              stephen davis
             </button>
 
             <h1 className="text-gray-100 text-xl select-none md:text-5xl">{ouckah ? ("") : (".")}</h1>
