@@ -18,6 +18,7 @@ const education: Education[] = [
         image: "university-of-florida-logo.png",
         subtitles: [
             {
+                date: "May 2026 Graduation",
                 title: "Clubs",
                 description: "ALPFA, SASE, SHPE"
             }
@@ -27,18 +28,18 @@ const education: Education[] = [
 
 const experiences: Experience[] = [
     {
+        company: "BNY",
+        title: "Software Engineer Intern",
+        image: "bny-logo-2.png",
+        date: "June 2025 - August 2025",
+        location: "Pittsburgh, PA"
+    },
+    {
         company: "Fifth Third Bank",
         title: "Software Engineer Intern",
         image: "fitb-logo.png",
         date: "January 2025 - May 2025",
         location: "Cincinnatti, OH"
-    },
-    {
-        company: "BNY",
-        title: "Software Engineer Intern",
-        image: "bny-logo-2.png",
-        date: "May 2025 - August 2025",
-        location: "New York, NY"
     },
     {
         company: "University of Florida",
@@ -51,25 +52,25 @@ const experiences: Experience[] = [
 
 const projects: Project[] = [
     {
-        title: "Snap Cart",
-        subtitle: "Google & Square AI Hackathon",
+        title: "Insert Project 1",
+        subtitle: "Insert Subtitle 1",
         image: "snapcart.png",
-        date: "October 2023",
-        description: "Participated in a hackathon hosted by Google and Square looking to integrate Google's AutoML and Square\'s payment process API"
+        date: "Inset Date",
+        description: "Insert Description"
     },
     {
-        title: "ouckah",
-        subtitle: "Content Creation",
-        image: "tiktok.jpg",
-        date: "February 2023 - Present",
-        description: "Created educational and entertainment content revolving around the culture of Computer Science"
+        title: "Insert Project 2",
+        subtitle: "Insert Subtitle 2",
+        image: "snapcart.png",
+        date: "Inset Date",
+        description: "Insert Description"
     },
     {
-        title: "EazyWay",
-        subtitle: "J.P. Morgan Code for Good",
-        image: "codeforgood.jpg",
-        date: "September 2023",
-        description: "Developed a project for non-profit Wellfare to optimize the onboarding process for those with food stamps and government help"
+        title: "Insert Project 3",
+        subtitle: "Insert Subtitle 3",
+        image: "snapcart.png",
+        date: "Inset Date",
+        description: "Insert Description"
     }
 ]
 
